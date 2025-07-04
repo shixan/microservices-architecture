@@ -23,7 +23,7 @@ services:
     environment:
       POSTGRES_DB: usersdb
       POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: 31415
     ports:
       - "5432:5432"
 
